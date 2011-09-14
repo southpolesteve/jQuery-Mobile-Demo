@@ -13,24 +13,47 @@
 </head>
 
 <body>
-  <div data-role = "header">
-    <h1>Meetups</h1>
-  </div>
-  <div data-role = "content">
-    <ul data-role = "listview">
-      <li><a href = "#">MadJS</a></li>
-      <li><a href = "#">Mad Railers</a></li>
-      <li><a href = "#">Madison PHP</a></li>
-    </ul>
-  </div>
-
-  <div data-role = "footer" data-position = "fixed">
-    <div data-role = "navbar">
-      <ul>
-        <li><a>Home</a></li>
-        <li><a>Settings</a></li>
+  <div data-role = "page" id = "home">
+    <div data-role = "header">
+      <h1>Meetups</h1>
+    </div>
+    <div data-role = "content">
+      <ul data-role = "listview">
+        <li><a href = "/index#madjs">MadJS</a></li>
+        <li><a href = "/railers">Mad Railers</a></li>
+        <li><a href = "#">Madison PHP</a></li>
       </ul>
     </div>
+
+    <div data-role = "footer" data-position = "fixed">
+      <div data-role = "navbar">
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>Settings</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
+  <div data-role = "page" id = "madjs">
+    <div data-role = "header">
+      <h1>MadJS</h1>
+    </div>
+    <div data-role = "content">
+      <p>
+        This page is supposed to have info about MadJS on it!
+      </p>
+    </div>
+
+    <div data-role = "footer" data-position = "fixed">
+      <div data-role = "navbar">
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>Settings</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
